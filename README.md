@@ -5,7 +5,9 @@ Each data set is divided into three sets:  the training set, the validation set 
 The main step in decision tree learning is choosing the next attribute to split on. We are going to implement the following two heuristics for selecting the next attribute.
 
 1.  Information gain heuristic
-2.  Variance impurity heuristic.
+2.  Variance impurity heuristic decribed below
+
+![Alt text](https://github.com/baranozzgurr/Decision-Tree-Implementation/blob/main/variance.png)
 
 We are going to Implement reduced error post pruning algorithm on the tree .The steps in the algorithm are given below.
 
